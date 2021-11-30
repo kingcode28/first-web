@@ -1,0 +1,115 @@
+/* MOBILE & TALET < 1024px*/
+@media only screen and (max-width: 63.9375em) {
+    #nav {
+        display: none;
+    }
+
+
+    #header .bars-icon svg {
+        display: block;
+    }
+    .search-btn {
+        float: left!important;
+    }
+    
+}
+/* MOBILE & TALET < 378px*/
+@media only screen and (max-width: 23.625em) {
+    #footer .envelop-footer {
+        padding: 50px 16px;
+    }
+}
+/* MOBILE & TALET < 557px & < 1024px*/
+@media only screen and (min-width: 34.8125em) and (max-width: 63.9375em) {
+    #nav-mobile {
+        /* transform: translateX(110%)!important; */
+
+        
+    }
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 46.1875em) {
+    #slider .text-content {
+        display: none;
+    }
+    #content .content-section {
+        width: 90%;
+        padding: 30px 0;
+    }
+    #content .section-heading {
+        font-size: 25px;
+    }
+    #content .members-list {
+        display: block;
+    }
+    #content .member-item {
+        margin: 33px 0 0 0;
+    }    
+    #content .member-img {
+        width: 100%;
+    }
+    .places-list {
+        flex-direction: column;
+    }
+    .places-item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .places-img {
+        height: auto;
+    }
+    .rps-content-form {
+        width: 100%;
+    }
+    .contact-content .my-infor {
+        margin-bottom: 15px;
+    }
+    .main .img-1, .main .img-2, .main .img-3 {
+        width: 100%;
+    }
+    .modal-container {
+        width: calc(100% - 32px);
+    }
+    .modal-container {
+        min-height: 350px;
+    }
+    .modal-hearder {
+        height: 85px;
+        line-height: 85px;
+    }
+    .modal-footer {
+        padding: 8px 0;
+    }
+    .modal-input {
+        margin-bottom: 20px;
+    }
+    .modal-close {
+        padding: 10px;
+}
+
+/* TALET  */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-section {
+        width: 80%;
+    }
+    .contact-content .my-infor {
+        font-size: 18px;
+    }
+    .content-form input.form-control {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 64em) {
+    #home {
+        /* display: none!important; */
+    }
+}
+
+}
